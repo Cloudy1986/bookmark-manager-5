@@ -21,9 +21,9 @@ describe Bookmark do
 
   describe '.create' do # Discuss with pair
     it 'creates a new bookmark' do
-      Bookmark.create(url: 'http://www.example.org')
+      Bookmark.create(url: 'http://www.example.org', title: 'Example')
 
-      expect(Bookmark.all).to include 'http://www.example.org'
+      expect(Bookmark.all).to include 'http://www.example.org Example'
     end
   end
 end
