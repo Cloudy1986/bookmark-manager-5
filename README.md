@@ -10,7 +10,7 @@ You're going to build a bookmark manager.  A bookmark manager is a website to ma
 
 ```
 As a user
-So that I can access my frequently visited websites 
+So that I can find my bookmarks 
 I want to see a list of bookmarks
 ```
 
