@@ -35,14 +35,14 @@ Not started specificatons:
 
 ## Create a test database
 
-`psql` - navigate to postgreSQL
-`CREATE DATABASE "bookmark_manager";` - create a database
-`\dt` - navigate into database
-`CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));` - create a 'bookmarks' table within the database
+- `psql` - navigate to postgreSQL
+- `CREATE DATABASE "bookmark_manager";` - create a database
+- `\dt` - navigate into database
+- `CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));` - create a 'bookmarks' table within the database
 
 ## Create a test database
 
-`psql` - navigate to postgreSQL
-`CREATE DATABASE "bookmark_manager_test";` - create a test database
-`\dt` - navigate into database
-`CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));` - create a 'bookmarks' table within the test database
+- `psql` - navigate to postgreSQL
+- `CREATE DATABASE "bookmark_manager_test";` - create a test database
+- `\dt` - navigate into database
+- `CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));` - create a 'bookmarks' table within the test database
