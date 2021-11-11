@@ -16,7 +16,7 @@ So that I can find my bookmarks
 I want to see a list of bookmarks
 ```
 
-Add new bookmarks :construction:
+Add new bookmarks :white_check_mark:
 
 ```
 As a user
