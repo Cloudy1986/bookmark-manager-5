@@ -1,21 +1,19 @@
-# Bookmark Challenge:
+# Bookmark Manager
 
-## User stories:
-As a user I want to be able to see a lot of bookmarks
+This week, you will build a web app that stores web bookmarks in a database.
 
-I want to be able to add new bookmarks to my list
+## The project
 
-I want to be able to delete bookmarks that are no longer useful
+You're going to build a bookmark manager.  A bookmark manager is a website to maintain a collection of bookmarks (URLs). You can use it to save a webpage you found useful. You can add tags to the webpages you saved to find them later. You can browse bookmarks other users have added. You can comment on the bookmarks.
 
-I want to be able to update any bookmarks
+## User stories
 
-I want to be able to comment on bookmarks
+```
+As a user
+So that I can access my frequently visited websites 
+I want to see a list of bookmarks
+```
 
-I want to be able to tag bookmarks with a category
-
-I want to be able to filter by their tagged category 
-
-Users should only be allowed to change and manage their own bookmarks
 
 ## Create a test database
 
