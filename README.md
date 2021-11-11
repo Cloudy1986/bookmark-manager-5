@@ -8,11 +8,29 @@ You're going to build a bookmark manager.  A bookmark manager is a website to ma
 
 ## User stories
 
+Show a list of bookmarks :white_check_mark:
+
 ```
 As a user
 So that I can find my bookmarks 
 I want to see a list of bookmarks
 ```
+
+Add new bookmarks :construction:
+
+```
+As a user
+So that 
+I want
+```
+
+Not started specificatons:
+- Delete bookmarks
+- Update bookmarks
+- Comment on bookmarks
+- Tag bookmarks into categories
+- Filter bookmarks by tag
+- Users are restricted to manage only their own bookmarks
 
 
 ## Create a test database
