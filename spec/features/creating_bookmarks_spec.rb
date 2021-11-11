@@ -5,7 +5,5 @@ feature 'Adding a new bookmark' do
     fill_in('title', with: 'BBC')
     click_button('Submit')
     expect(page).to have_link('BBC')
-    click_link('BBC')
-    expect(page).to have_content('Welcome to the BBC')
   end
 end
