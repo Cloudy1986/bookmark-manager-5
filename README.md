@@ -20,8 +20,8 @@ Add new bookmarks :construction:
 
 ```
 As a user
-So that 
-I want
+So that I can store bookmarks for later
+I want to add a bookmark
 ```
 
 Not started specificatons:
