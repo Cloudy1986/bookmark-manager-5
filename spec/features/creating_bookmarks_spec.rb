@@ -4,6 +4,6 @@ feature 'Adding a new bookmark' do
     fill_in('url', with: 'http://bbc.co.uk')
     fill_in('title', with: 'BBC')
     click_button('Submit')
-    expect(page).to have_link('BBC')
+    expect(page).to have_link('BBC', href: 'http://bbc.co.uk')
   end
 end

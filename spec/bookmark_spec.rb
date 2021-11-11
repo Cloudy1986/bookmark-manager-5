@@ -13,6 +13,7 @@ describe Bookmark do
   
       bookmarks = Bookmark.all
       expect(bookmarks.count).to eq(3)
+      expect(bookmarks[0]).to be_a Bookmark
       expect(bookmarks[0].url).to eq('http://www.makersacademy.com')
       expect(bookmarks[1].title).to eq('Destroy All Software')
     end
