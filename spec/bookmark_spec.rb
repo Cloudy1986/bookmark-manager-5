@@ -19,7 +19,7 @@ describe Bookmark do
     end
   end
 
-  describe '.create' do # Discuss with pair
+  describe '.create' do
     it 'creates a new bookmark' do
       Bookmark.create(url: 'http://www.example.org', title: 'Example')
       bookmarks = Bookmark.all
@@ -27,4 +27,5 @@ describe Bookmark do
       expect(bookmarks[0].title).to eq('Example')
     end
   end
+
 end
