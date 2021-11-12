@@ -24,8 +24,15 @@ So that I can store bookmarks for later
 I want to add a bookmark
 ```
 
+Delete bookmarks :construction:
+
+```
+As a user
+So I can remove bookmarks I no longer need
+I want to delete a bookmark
+```
+
 Not started specificatons:
-- Delete bookmarks
 - Update bookmarks
 - Comment on bookmarks
 - Tag bookmarks into categories
@@ -46,3 +53,4 @@ Not started specificatons:
 - `CREATE DATABASE "bookmark_manager_test";` - create a test database
 - `\dt` - navigate into database
 - `CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));` - create a 'bookmarks' table within the test database
+
